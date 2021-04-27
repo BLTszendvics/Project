@@ -46,3 +46,14 @@ body {
 .row {
     margin-bottom: 2%;
 }
+
+
+.tortabekezdes{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.tortacim{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
