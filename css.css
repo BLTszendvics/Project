@@ -57,3 +57,11 @@ body {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.arak {
+    list-style-type: none;
+}
+.lij {
+    text-align: right;
+    margin-right: 7%;
+}
