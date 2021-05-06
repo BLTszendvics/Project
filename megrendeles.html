@@ -1,0 +1,305 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css.css">
+        <title>
+            Cukrászdaa
+        </title>
+    </head>
+    <body>
+        <div class="menu">
+            <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fooldal" href="fooldal.html">
+                            Főoldal
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sutemenyek.html">
+                            Sütemények
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tortak.html">
+                            Torták
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="arak.html">
+                            Árlap
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fooldal2" href="megrendeles.html">
+                           Megrendelés
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logodiv">
+            <img src="logo.png" class="logo" alt="Logó" title="Logó">
+        </div>
+        <div class="fo belj">
+            <form class="form-inline">
+                <div class="form-group col-12 col-md-6">
+                    <label for="name">Neve:</label>
+                    <input type="text" class="form-control" placeholder="Neve" id="name" style="width:100%;">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email" style="width:100%;">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="tel">Telefonszáma:</label>
+                    <input type="number" class="form-control" placeholder="Telefonszám" id="tel" style="width:100%;">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="cim">Címe:</label>
+                    <input type="text" class="form-control" placeholder="Címe" id="cim" style="width:100%;">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="ido">Határidő</label>
+                    <input type="date" class="form-control" placeholder="Határidő" id="ido" style="width:100%;">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="kisz">Kiszállítás:</label> 
+                    <input class="ml-2" type="radio" id="kisz" name="kisz" for="kisz"> 
+                    <label class="ml-2" for="kisz">Házhozszállítás</label>
+                    <input class="ml-2" type="radio" id="kisz" name="kisz" for="kisz"> 
+                    <label class="ml-2" for="kisz">Átvétel</label>
+                </div>
+            </form>
+            <br>
+            <div class="row">
+                <div class="col-12 col-md-2 col-lg-3">
+                </div>
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s1" type="checkbox">
+                                <label for="s1">Isler</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s1" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s2" type="checkbox">
+                                <label for="s2">Kinder Szelet</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s2" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s3" type="checkbox">
+                                <label for="s3">Ribizli Szelet</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s3" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s4" type="checkbox">
+                                <label for="s4">Linzer</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s4" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s5" type="checkbox">
+                                <label for="s5">Francia Krémes</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s5" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s6" type="checkbox">
+                                <label for="s6">Mignon</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s6" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s7" type="checkbox">
+                                <label for="s7">Almás pite</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s7" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s8" type="checkbox">
+                                <label for="s8">Hókocka</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s8" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="s9" type="checkbox">
+                                <label for="s9">Sportszelet</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="s9" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="t1" type="checkbox">
+                                <label for="t1">Kinder Buenó Torta</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="t1" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="t2" type="checkbox">
+                                <label for="t2">Dobos Torta</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="t2" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="t3" type="checkbox">
+                                <label for="t3">Meggytorta</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="t3" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <input id="t4" type="checkbox">
+                                <label for="t4">Oreó torta</label>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <input id="t4" type="number" min="0" style="width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 col-lg-3">
+                </div>
+            </div>
+            <br>
+            <button onClick="window.location.reload()" style="display: block; margin: auto;">Rendelés</button>
+        </div>
+        <footer>
+            <div class="fo">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h3>
+                            Elérhetőségünk:
+                        </h3>
+                        <p>
+                            Cím: Balatonboglár, Szabadság utca 13
+                        </p>
+                        <p>
+                            Tel.: +36/30 444-1234
+                        </p>
+                        <p>
+                            Email: edeseletcukraszda@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h3>
+                            Nyitvatartás:
+                        </h3>
+                        <p>
+                            Hétköznap: 8:00 - 20:00
+                        </p>
+                        <p>
+                            Hétvége: 10:00 - 18:00
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    Édes Álom Cukrászda
+                </p>
+                <p>
+                    Balatonboglár, Szabadság utca 13
+                </p>
+                <p>
+                    2021 © Édes Álom Cukrászda - Minden Jog Fenntartva
+                </p>
+                <p>
+                    Weboldalt készítette: Szalai Péter & Bali Bálint
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
